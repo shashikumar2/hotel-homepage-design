@@ -1,13 +1,12 @@
 *{
     margin:0;
     padding:0; 
-    font-family:Times New Roman;
+    font-family: Century Gothic;
 } 
 
 header {
     background-image: url('home21.jpg');
-    height:100vh;
-    
+    height:100vh;    
 }
 
 ul {
@@ -28,12 +27,13 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color:coral;
+    background-color: maroon;
+    transition: 0.6s ease;
+
 }
 
 .logo img{
     float: left;
-    /* color: #fff; */
     background-color: #fff;
     width: 100px;
     height: 25px;
@@ -43,4 +43,38 @@ ul li a:hover{
 .main{
     max-width: 1200px;
     margin:auto;
+}
+
+.title{    
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%-50%);
+}
+
+.title h1{
+    color: maroon;
+    font-size: 60px;    
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%-50%);
+    
+}
+
+.btn{
+   text-decoration: none;
+   border: 3px solid maroon;
+   padding: 3px 6px;
+   font-size: 30px;
+   background-color: #fff;
+   transition: 0.6s ease;
+}
+
+.button a:hover{
+    background-color: maroon
+
 }
