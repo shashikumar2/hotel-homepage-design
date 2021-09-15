@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0; 
+    font-family:Times New Roman;
+} 
+
+header {
+    background-image: url('home21.jpg');
+    height:100vh;
+    
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 15px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    border:1px solid #fff;
+    color: #fff;
+}
+
+ul li a:hover{
+    background-color:coral;
+}
+
+.logo img{
+    float: left;
+    /* color: #fff; */
+    background-color: #fff;
+    width: 100px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
